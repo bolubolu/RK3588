@@ -13,4 +13,4 @@ all:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
 clean:
-	rm -rf *.o *.~core.depend *.ko *.mod *.order *.symvers *.mod.c .tmp_versions $(TARGET)
+	rm -rf *.o *.~core.depend *.ko *.mod *.order *.symvers *.mod.c *.cmd *.tmp_versions .*.*.cmd $(TARGET)
